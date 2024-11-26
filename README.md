@@ -29,6 +29,8 @@ employees can display their information to check the info they entered, if chang
 
 employees can update their email, as it wouldn't negatively affect the system, but employee can not update their salary as it can result in unethical input, the employee can not update their ID as it might already exist or it might be reserved for specific positions, the employee can not update their position as it is controled by the manager, the employee can not update their name as they might impersonate other employees or managers, thus gaining access to manager class and ruin the system. same can happen if the employee can update their own ID. which is why the manager controls the updating process.
 
+-------------------------------------------------
+
 EmployeeManager class:
 in the employee manager the manager controls employees' data. manager can add, delete, update, list and search for employees information. additionally, manager can save to and from csv file.
 
